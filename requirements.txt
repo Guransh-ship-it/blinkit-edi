@@ -1,0 +1,21 @@
+# Core
+Django>=5.1,<5.2
+djangorestframework>=3.15,<4.0
+psycopg2-binary>=2.9,<3.0
+
+# HTTP client (outbound API calls)
+requests>=2.32,<3.0
+
+# CORS
+django-cors-headers>=4.4,<5.0
+
+# Google Sheets bridge (for ASN import)
+gspread>=6.0,<7.0
+google-auth>=2.30,<3.0
+
+# Production server
+gunicorn>=22.0,<23.0
+
+# Dev tools
+django-extensions>=3.2,<4.0
+ipython>=8.0
